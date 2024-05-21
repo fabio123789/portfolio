@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>My Portfolio</title>
+    <meta name="description" content="My Portfolio" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="main-header__logo-container">
+        <h4 class="main-header__logo-text">Fábio Gonçalves</h4>
+      </div>
+      <nav class="main-header__navigation">
+        <ul class="main-header__navigation-links">
+          <li class="main-header__navigation-link">
+            <a href="./index.html"> Home </a>
+          </li>
+          <li class="main-header__navigation-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+          <li class="main-header__navigation-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+          <li class="main-header__navigation-link">
+            <a href="./index.html#contact" href=""> Contact </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-header__sm-scr-nav-btn">
+        <div class="main-header__sm-scr-nav-btn-line"></div>
+        <div class="main-header__sm-scr-nav-btn-line"></div>
+        <div class="main-header__sm-scr-nav-btn-line"></div>
+      </div>
+      <div class="main-header__sm-menu">
+        <div class="main-header__sm-menu-close"></div>
+        <ul class="main-header__sm-menu-links">
+          <li>
+            <a
+              class="main-header__sm-menu-link main-header__sm-menu-link--1"
+              name="home-hero"
+              >Home</a
+            >
+          </li>
+
+          <li>
+            <a
+              class="main-header__sm-menu-link main-header__sm-menu-link--2"
+              name="about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-header__sm-menu-link main-header__sm-menu-link--3"
+              name="projects"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-header__sm-menu-link main-header__sm-menu-link--4"
+              name="contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="home-hero" class="home-hero">
+      <div
+        class="home-hero__content animate__animated animate__fadeInUp animate__slow"
+      >
+        <div class="home-hero__info">
+          <h1 class="heading-primary home-hero__heading-primary">
+            <span class="heading-primary__main">
+              Hello I'm
+              <strong class="home-hero__strong-txt">Fábio Gonçalves</strong>, a
+              <strong class="home-hero__strong-txt">Front-End Developer</strong>
+              ready to build awesome web apps and websites.
+            </span>
+          </h1>
+          <a href="./index.html#projects"
+            ><button class="btn btn-primary btn-theme home-hero__btn-theme">
+              <i class="bi bi-grid-1x2-fill"></i>Projects
+            </button></a
+          >
+          <a href="./index.html#contact"
+            ><button class="btn btn-primary btn-inv home-hero__btn-theme">
+              <i class="bi bi-telephone-fill"></i>Contact
+            </button></a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about main-section">
+      <div class="main-container">
+        <h2 class="heading-secondary projects__heading-secondary">
+          <span class="heading-secondary__main animated-element fade-up">
+            Here, you can learn more about me, discover what I specialize in,
+            and explore a list of my current programming skills.
+          </span>
+        </h2>
+        <div class="main-section__content">
+          <div class="about__info">
+            <div class="about__main-info animated-element slide-left">
+              <h3 class="heading-quaternary about__heading-quaternary">
+                My Story
+              </h3>
+              <p class="text-primary about__text-primary">
+                <span>
+                  Hello! I'm a passionate web developer with a keen interest in
+                  creating engaging and interactive web applications. With a
+                  strong foundation in HTML, CSS, and JavaScript, I have honed
+                  my skills in modern frameworks like ReactJS to build dynamic
+                  and responsive user interfaces. <br />
+                  My journey into web development began 6 years ago when I
+                  discovered my love for coding and problem-solving. Since then,
+                  I have dedicated myself to learning and mastering various web
+                  technologies. Whether it's building a simple landing page or a
+                  complex web application, I enjoy every step of the process,
+                  from planning and designing to coding and testing.
+                </span>
+              </p>
+            </div>
+            <div class="about__skill-info animated-element slide-right">
+              <h3 class="heading-quaternary about__heading-quaternary">
+                My Skills
+              </h3>
+              <ul class="about__skills">
+                <li class="about__skill">
+                  <i class="devicon-html5-plain"></i> html
+                </li>
+                <li class="about__skill">
+                  <i class="devicon-css3-plain"></i>css
+                </li>
+                <li class="about__skill">
+                  <i class="devicon-javascript-plain"></i>javascript
+                </li>
+                <li class="about__skill">
+                  <i class="devicon-react-original"></i>react
+                </li>
+                <li class="about__skill">
+                  <i class="devicon-nodejs-plain"></i>node
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects main-section">
+      <div class="main-container">
+        <h2
+          class="heading-secondary projects__heading-secondary animated-element"
+        >
+          <span class="heading-secondary__main">
+            Explore to see a selection of personal projects I've developed,
+            complete with descriptions of each project.
+          </span>
+        </h2>
+        <div class="main-section__content">
+          <div class="projects__list">
+            <div class="projects__list-item animated-element zoom-in">
+              <div class="projects__list-item-count">
+                <span class="projects__list-item-count-num"> 1 </span>
+                <span class="projects__list-item-count-line"> </span>
+                <span class="projects__list-item-count-end-dot"> </span>
+              </div>
+              <div class="projects__list-item-details">
+                <div class="projects__list-item-img-cont">
+                  <img
+                    src="./assets/images/Robot Friends.png"
+                    alt="Project Image"
+                    class="projects__list-item-img"
+                  />
+                </div>
+                <h3
+                  class="heading-tertiary projects__list-item-heading-tertiary"
+                >
+                  Robot Friends
+                </h3>
+                <p class="text-primary projects__list-item-text-primary">
+                  <span>
+                    "Robot Friends" is a simple project built with React that
+                    uses a mock API to list users. The application allows users
+                    to be added, edited, and deleted.
+                  </span>
+                </p>
+                <p class="text-primary projects__list-item-text-secondary">
+                  Languages Used:
+                </p>
+                <ul class="about__skills">
+                  <li class="about__skill">
+                    <i class="devicon-react-original"></i>react
+                  </li>
+                  <li class="about__skill">
+                    <i class="devicon-css3-plain"></i>css
+                  </li>
+                </ul>
+                <a
+                  href="https://fabio123789.github.io/robot-friends/"
+                  target="_blank"
+                >
+                  <button class="btn btn-theme projects__btn-theme">
+                    <i class="bi bi-broadcast"></i> Live
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/fabio123789/robot-friends"
+                  target="_blank"
+                >
+                  <button class="btn btn-inv projects__btn-inv">
+                    <i class="bi bi-code-slash"></i> Code source
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              class="projects__list-item projects__list-item--inv animated-element zoom-in"
+            >
+              <div class="projects__list-item-details">
+                <div class="projects__list-item-img-cont">
+                  <img
+                    src="./assets/images/Norris.png"
+                    alt="Project Image"
+                    class="projects__list-item-img"
+                  />
+                </div>
+                <h3
+                  class="heading-tertiary projects__list-item-heading-tertiary"
+                >
+                  Cuck Norris Facts
+                </h3>
+                <!-- <hr class="projects__title-text-divider" /> -->
+
+                <p class="text-primary projects__list-item-text-primary">
+                  <span>
+                    The "Chuck Norris Facts" project is an engaging web
+                    application built using ReactJS. It fetches data from the
+                    Chuck Norris API to provide users with an entertaining
+                    experience centered around humorous Chuck Norris facts. The
+                    application is fully responsive, ensuring an optimal viewing
+                    experience across various devices.
+                  </span>
+                </p>
+                <p class="text-primary projects__list-item-text-secondary">
+                  Languages Used:
+                </p>
+                <ul class="about__skills">
+                  <li class="about__skill">
+                    <i class="devicon-react-original"></i>react
+                  </li>
+                  <li class="about__skill">
+                    <i class="devicon-css3-plain"></i>css
+                  </li>
+                </ul>
+                <a
+                  href="https://fabio123789.github.io/norris-facts/"
+                  target="_blank"
+                >
+                  <button class="btn btn-theme projects__btn-theme">
+                    <i class="bi bi-broadcast"></i> Live
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/fabio123789/norris-facts"
+                  target="_blank"
+                >
+                  <button class="btn btn-inv projects__btn-inv">
+                    <i class="bi bi-code-slash"></i> Code source
+                  </button>
+                </a>
+              </div>
+              <div class="projects__list-item-count">
+                <span class="projects__list-item-count-num"> 2 </span>
+                <span class="projects__list-item-count-line"> </span>
+                <span class="projects__list-item-count-end-dot"> </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact main-section">
+      <div class="main-container">
+        <h2 class="heading-secondary animated-element fade-up">
+          <span class="heading-secondary__main">
+            Connect with me! Here are my social media links and email address.
+            Feel free to reach out, and I'll respond as soon as possible.
+          </span>
+        </h2>
+        <div class="main-section__content">
+          <p class="text-primary contact-text">
+            <i class="contact-icon bi bi-telephone"></i> +351 915 496 522
+          </p>
+          <p class="text-primary contact-text">
+            <i class="contact-icon bi bi-at"></i
+            ><a href="mailto:goncalvesfabio227@gmail.com"
+              >goncalvesfabio227@gmail.com</a
+            >
+          </p>
+          <p class="text-primary contact-text">
+            <i class="contact-icon bi bi-geo-alt"></i>Vila Nova de Famalicão,
+            Braga, Portugal
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-footer__upper">
+        <div class="main-container">
+          <div class="main-footer__socials">
+            <a
+              href="https://github.com/fabio123789"
+              target="_blank"
+              class="main-footer__social-link"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/fabioaggon/"
+              target="_blank"
+              class="main-footer__social-link"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
